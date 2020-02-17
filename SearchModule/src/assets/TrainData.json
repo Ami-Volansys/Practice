@@ -1,0 +1,11 @@
+ [
+    {"Train_no" : "1427", "Name" : "AF" , "starting_time" : "2:34" ,"Arrivaing_time" : "5:15" },
+    {"Train_no" : "2130", "Name" : "AX" , "starting_time" : "2:34" ,"Arrivaing_time" : "5:15" },
+    {"Train_no" : "2130", "Name" : "AL" , "starting_time" : "2:34" ,"Arrivaing_time" : "5:15" },
+    {"Train_no" : "1427", "Name" : "DZ" , "starting_time" : "2:34" ,"Arrivaing_time" : "5:15" },
+    {"Train_no" : "2130", "Name" : "AS" , "starting_time" : "2:34" ,"Arrivaing_time" : "5:15" },
+    {"Train_no" : "1427", "Name" : "AD" , "starting_time" : "2:34" ,"Arrivaing_time" : "5:15" },
+    {"Train_no" : "1427", "Name" : "AO" , "starting_time" : "2:34" ,"Arrivaing_time" : "5:15" },
+    {"Train_no" : "1427", "Name" : "AI" , "starting_time" : "2:34" ,"Arrivaing_time" : "5:15" }
+    
+ ]

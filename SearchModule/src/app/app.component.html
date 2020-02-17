@@ -1,0 +1,24 @@
+From Station: <input type="text" #Source/> <br><br>
+To Station: <input type="text" #Destination/><br><br>
+<button class="Search_button" (click)= "FetchData()">Search</button> <br><br>
+
+    <table id="text" class="table">
+        <tr *ngIf="Data">
+            <th>Train_no</th>
+            <th>Name</th>
+            <th>starting_time</th>
+            <th>Arrivaing_time</th>
+        </tr>
+            
+    
+        <tbody *ngFor="let data of Data">
+           
+            <tr >
+                <td> {{ data.Train_no }} </td>
+                <td> {{ data.Name }} </td>
+                <td>{{data.starting_time}}</td>
+                <td>{{data.Arrivaing_time}}</td>
+                
+            </tr>
+        </tbody>
+    </table>

@@ -1,0 +1,14 @@
+.Search_button
+{
+    position: relative;
+    width:7%;
+    height:30px;
+    background-color: steelblue;
+    color:white;
+    font-size: 20px;
+}
+input[type="text"]
+{
+    background-color: lightgrey;
+}
+
