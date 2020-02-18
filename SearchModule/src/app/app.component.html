@@ -1,8 +1,8 @@
-From Station: <input type="text" #Source/> <br><br>
-To Station: <input type="text" #Destination/><br><br>
-<button class="Search_button" (click)= "FetchData()">Search</button> <br><br>
+<div class="First_para"><br><br>Train no: <input type="text" id="Source"/>
+Time: <input type="text" id = "Dest"/><br><br>
+<button class="Search_button" (click)= "FetchData()">Search</button> <br><br> </div>
 
-    <table id="text" class="table">
+    <table id="text" cellspacing= 0 class="table_align">
         <tr *ngIf="Data">
             <th>Train_no</th>
             <th>Name</th>

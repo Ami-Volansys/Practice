@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
+  [x: string]: any;
   
   ngOnInit(){
   
@@ -18,11 +19,20 @@ export class AppComponent implements OnInit{
   FetchData = function()
   {
    
+    //let x =  (<HTMLInputElement>document.getElementById("Source")).value;
+    //let y =  (<HTMLInputElement>document.getElementById("Dest")).value;
+  
       this.Data = require('../assets/TrainData.json');
-      
-     // this.data2 = JSON.stringify(this.Data);
-      document.getElementById("text").innerHTML;
     
+      
+   //this.data2 = JSON.stringify(this.Data);
+     //if(x === this.data2.Train_no)
+    // {
+          //this.data2.Train_no = require('../assets/TrainData.json');
+          document.getElementById("text").innerHTML;
+     //}
+      
+   
  
   }
 
