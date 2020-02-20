@@ -23,24 +23,43 @@ export class AppComponent implements OnInit{
   let x =  (<HTMLInputElement>document.getElementById("Source")).value;
   
   //let y =  (<HTMLInputElement>document.getElementById("Dest")).value;
-  
+ 
       this.Data = require('../assets/TrainData.json');
       //console.log(this.Data)
       for(var key in this.Data)
       {
+       
+       
         //console.log(key)
         if(this.Data[key].Train_no === x)
         {
-        
-           this.data2= this.Data[key];
-           console.log(this.data2)
-          //this.data3 = Object.keys(this.data2);
+         let data3 =[];
+          
+         
+         
+          //this.data2 =Array.of(this.Data[key]);
+         data3 = Array.of(this.Data[key]);
 
-      // console.log(this.data3)
-            //this.data2 = key;
+         //data3= this.data2[key];
          document.getElementById("text").innerHTML;
-        }
-      }
+         console.log(data3)
+     
+          }
+          
+          
+        
+   
+   //this.data2 =this.Data[key];
+          
+      
+          ///this.data3 = Object.keys(this.data2);
+
+     //console.log(this.data3)
+     
+          //this.data2 = key;
+        
+        
+      
        
       
       
@@ -56,5 +75,7 @@ export class AppComponent implements OnInit{
   }
 
 
- 
+
+  }
+
 }

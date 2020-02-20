@@ -3,7 +3,7 @@ Time: <input type="text" id = "Dest"/><br><br>
 <button class="Search_button" (click)= "FetchData()">Search</button> <br><br> </div>
 
     <table id="text" cellspacing= 0 class="table_align">
-        <tr *ngIf="data2">
+        <tr *ngIf="data3">
             <th>Train_no</th>
             <th>Name</th>
             <th>starting_time</th>
@@ -11,13 +11,14 @@ Time: <input type="text" id = "Dest"/><br><br>
         </tr>
             
     
-        <tbody  *ngFor="let data of data2">
-           
-            <tr >
-                <td> {{ data3.Train_no }} </td>
-                <td> {{ data3.Name }} </td>
-                <td>{{data3.starting_time}}</td>
-                <td>{{data3.Arrivaing_time}}</td>
+        <tbody  *ngFor="let data of data3">
+
+            <tr>
+                
+                <td> {{ data.Train_no }} </td>
+                <td> {{ data.Name }} </td>
+                <td>{{data.starting_time}}</td>
+                <td>{{data.Arrivaing_time}}</td>
                 
             </tr>
         </tbody>
