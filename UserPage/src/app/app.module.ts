@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { LoginComponent } from './login/login.component';
 import {ForgotPasswordComponent} from './forgot-password.component';
+import { SignupComponent } from './signup/signup.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    ForgotPasswordComponent
+    ForgotPasswordComponent,
+    SignupComponent
    
   ],
   imports: [
@@ -25,6 +27,10 @@ import {ForgotPasswordComponent} from './forgot-password.component';
       {
         path:'forgot',
         component:ForgotPasswordComponent
+      },
+      {
+        path:'signup',
+        component:SignupComponent
       },
     ])
   ],
